@@ -16,12 +16,12 @@ for key in range(1, 26):
     # Print the plaintext
     print(f"Key: {key}, Plaintext: {plaintext}")
 
-#     # check if any word is one of the words in common_words.txt
-#     for word in plaintext.split():
-#         if word in items:
-#             if not key in valid_keys:
-#                 valid_keys.append(key)
+    # check if any word is one of the words in common_words.txt
+    for word in plaintext.split():
+        if word in items:
+            if not key in valid_keys:
+                valid_keys.append(key)
 
-# # in the end, share valid keys
-# print("The valid keys are:")
-# print(valid_keys)
+# in the end, share valid keys
+print("The valid keys are:")
+print(valid_keys)
